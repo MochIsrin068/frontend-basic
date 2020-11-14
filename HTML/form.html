@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>Belejar Form Di HTML</title>
+    </head>
+    <body>
+        <form onsubmit="alert('Data Send')">
+            <!-- TEXT -->
+            <label for="fname">Firsname</label><br/>
+            <input type="text" name="fname" placeholder="Firsname"> <br/>
+            <label for="lname">Lastname</label><br/>
+            <input type="text" name="lname" placeholder="Lastname"> <br/>
+
+            <!-- RADIO -->
+            <p>Gender : </p>
+            <input type="radio" name="gender" value="male">
+            <label for="gMale">Male</label><br/>
+            <input type="radio" name="gender" value="female">
+            <label for="gFemale">Female</label><br/>
+            <input type="radio" name="gender" value="others">
+            <label for="gOthers">Others</label><br/>
+
+            <!-- CHECKBOX -->
+            <p>Interest To Learn : </p>
+            <input type="checkbox" name="html">
+            <label>HTML</label><br>
+            <input type="checkbox" name="css">
+            <label>CSS</label><br>
+            <input type="checkbox" name="js">
+            <label>JAVASCIPT</label><br>
+
+            <!-- SELECT -->
+            <label>Choose a car</label>
+            <select>
+                <option value="1">Volvo</option>
+                <option value="2">Saab</option>
+                <option value="3">Audi</option>
+            </select>
+
+            <!-- TEXTAREA -->
+            <p>TextArea</p>
+            <textarea>
+                Jl. Pahlaman No. 11, Bogor
+            </textarea> 
+
+            <!-- BUTTON SUBMIT & RESET EXAMPLE -->
+            <p>Button :</p>
+            <input type="reset" value="Reset"/>
+            <!-- <input type="submit" value="Submit"/> -->
+            <button type="submit">CLick Me!</button>
+        </form>
+
+        <button type="submit">CLick Me!</button>
+
+        <!-- MEDIA - VIDEO -->
+        <video width="300" height="300" controls>
+            <source src="video.mp4" type="video/mp4">
+        </video>
+
+        <!-- MEDIA - AUDIO -->
+        <audio controls>
+            <source src="test.mp3" type="audio/mpeg" >
+        </audio>
+    </body>
+</html>
